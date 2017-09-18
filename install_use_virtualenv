@@ -1,0 +1,14 @@
+Make sure that pip is installed already and install virtualenv:
+$ sudo easy_install virtualenv pip
+
+Create a virtual environment:
+$ virtualenv name_of_your_yourenv
+
+In the case you don't want to use global site packages directories, i.e. you wish to create a new env with individual modules and dependencies, you can use the command:
+$ virtualenv --no-site-packages name_of_your_yourenv
+
+Activate a virtual environment:
+$ source yourenv/bin/activate
+
+Deactivate the current virtual environment:
+(name_of_your_yourenv)$ deactivate
